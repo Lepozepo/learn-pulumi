@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "10"
+      }
+    }]
+  ],
+  "plugins": [
+    ["babel-plugin-root-import",
+      {
+        "rootPathSuffix": "./api",
+        "rootPathPrefix": "~",
+      },
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-optional-chaining",
+  ]
+}

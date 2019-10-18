@@ -1,0 +1,17 @@
+service: apollo-lambda
+provider:
+  name: aws
+  profile: diadmin
+  runtime: nodejs10.x
+functions:
+  graphql:
+    handler: api/index.handler
+    events:
+    - http:
+        path: graphql
+        method: post
+        cors: true
+    - http:
+        path: graphql
+        method: get
+        cors: true
