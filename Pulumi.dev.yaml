@@ -1,4 +1,0 @@
-config:
-  aws:profile: diadmin
-  aws:region: us-east-1
-  cloud:provider: aws

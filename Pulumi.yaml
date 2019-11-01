@@ -1,3 +1,0 @@
-name: pulumi-mongo-serverless
-runtime: nodejs
-description: A simple AWS serverless JavaScript Pulumi program
