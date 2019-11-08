@@ -1,4 +1,8 @@
 config:
   aws:profile: diadmin
-  aws:region: us-east-1
+  aws:region: us-west-1
   cloud:provider: aws
+  cloud-aws:useFargate: true
+  pulumi-mongo-serverless:notsecret: not a secret
+  pulumi-mongo-serverless:secret:
+    secure: AAABAHAJavqycJKZiM2ZL8lYnI+1q0qqsjfvVFLVqhwnQwiUDSENiucOjHwxvRmn
